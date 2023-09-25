@@ -1,0 +1,300 @@
+/* Estilos generales de la barra de navegación */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2.5vw 9vw;
+  padding: 20px;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  /* Permite que los elementos se envuelvan en pantallas pequeñas */
+}
+
+.spanWelcome {
+  border: none;
+  background-color: transparent;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  margin: 0 13px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3 ease;
+}
+
+.spanAdmin {
+  z-index: 1;
+  position: absolute;
+  margin-right: 20px;
+  bottom: -35%;
+  font-size: 12px;
+  right: 50%;
+}
+
+.cartIconContainer {
+  margin-left: 20px;
+}
+
+.containerLP {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* Envuelve los elementos en pantallas pequeñas */
+}
+
+.containerL {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* Envuelve los elementos en pantallas pequeñas */
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+  margin-right: 15px;
+  /* Espacio entre el logo y otros elementos en pantallas grandes */
+}
+
+.icons {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.itemCountCircle {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--fontNunito);
+  font-size: 12px;
+  /* Tamaño de la fuente del número */
+  color: #a39583;
+  /* Color del texto (número) */
+  background-color: #ebe8e5;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  /* Para hacerlo circular */
+  width: 20px;
+  /* Ancho del círculo */
+  height: 20px;
+  /* Alto del círculo */
+}
+
+
+.button {
+  border: none;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  margin: 0 13px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+
+}
+
+.button:hover {
+  border-bottom-color: black;
+}
+
+.icon_name_user {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--colorNegro);
+}
+
+.name {
+  border: none;
+  background-color: transparent;
+  font-family: 'Inter', sans-serif;
+  font-size: 17px;
+  margin: 0 13px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3 ease;
+}
+
+.iconImage {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.menu_button {
+  display: none;
+  /* Oculta el botón en pantallas grandes */
+  border: none;
+  background-color: transparent;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 30px;
+}
+
+/* Estilos para pantallas pequeñas (por ejemplo, dispositivos móviles) */
+@media screen and (max-width: 768px) {
+  .container {
+    align-items: flex-start;
+    /* Alinea los elementos a la izquierda */
+    margin: 2.5vw 0;
+    /* Elimina el margen horizontal en pantallas pequeñas */
+  }
+
+  .navRight {
+    margin: 16px 25px;
+    /* Elimina el margen horizontal en pantallas pequeñas */
+  }
+
+  .logo {
+    margin: 10px 25px;
+  }
+
+  .containerLP,
+  .containerL {
+    flex-direction: column;
+  }
+
+  .button {
+    margin: 5px 0;
+    /* Agrega margen vertical a los botones en pantallas pequeñas */
+  }
+
+  .menu_button {
+    display: block;
+    /* Muestra el botón en pantallas pequeñas */
+  }
+}
+
+.dropdownContainer {
+  position: relative;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.buttonDropdown {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-right: 20px;
+  font-weight: lighter;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Inter", sans-serif;
+  transition: ease-in-out 0.1s;
+}
+
+.dropdownContent a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: #333;
+  transition: ease-in-out 0.1s;
+}
+
+.dropdownContent a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+/* Estilos para el modo oscuro */
+.container.darkMode {
+  background-color: #333;
+  color: #fff;
+}
+
+.container.darkMode .button {
+  color: #fff;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  content: "🌙";
+  color: #fff;
+  font-size: 12px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  content: "☀️";
+  color: #333;
+  font-size: 12px;
+  line-height: 26px;
+  text-align: center;
+}

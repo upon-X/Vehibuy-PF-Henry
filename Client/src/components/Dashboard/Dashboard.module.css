@@ -1,0 +1,187 @@
+.containerP {
+  display: flex;
+  height: 48.1vw;
+  flex-grow: 1; /* Hace que .containerP tome el espacio restante */
+  }
+  
+  .containerLeft {
+    display: flex;
+    padding: 0 1vw;
+    flex-direction: column;
+    background-color: #bdac9b;
+    
+  }
+
+  .containerLeft .adminTools {
+    display: flex; /* Establece un diseño en línea para los elementos */
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .img {
+    width: 30px;
+  }
+
+  .containerLeft h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    line-height: 25px;
+    margin-right: 20px;
+  }
+  
+  .containerLeft button {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px; /* Agrega margen inferior entre los botones */
+    transition: background-color 0.3s; /* Agrega una transición suave */
+  }
+  
+  .containerLeft button:hover {
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el cursor */
+    color: #333; /* Cambia el color del texto para que sea legible */
+  }
+  
+  .containerRight {
+    background-color: #EBE8E5;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+
+  .hello {
+    display: flex; /* Establece un contenedor flexible */
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #bdac9b;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center;
+  }
+
+  .DashboardUser {
+    margin: 0 2vw;
+    overflow-y: auto;
+    max-height: 600px;
+  }
+  
+  .stateUp {
+    display: flex; /* Cambiamos a inline-block para que el fondo se ajuste al contenido */
+    justify-content: center;
+    justify-content: flex-end; /* Alinea el contenido hacia la derecha */
+    background-color: white;
+    padding: 0; /* Eliminamos el padding en el contenedor */
+  }
+  
+  .stateUp h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #EBE8E5;
+    line-height: 49px;
+    font-size: 70px;
+    margin: 0; /* Eliminamos el margin para quitar el espacio alrededor del texto */
+  }
+  
+.containerLeft h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+  color: white;
+  line-height: 25px;
+  margin-right: 20px;
+}
+
+.containerLeft button {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  padding: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 10px; /* Agrega margen inferior entre los botones */
+  transition: background-color 0.3s; /* Agrega una transición suave */
+}
+
+.containerLeft button:hover {
+  background-color: #f0f0f0; /* Cambia el color de fondo al pasar el cursor */
+  color: #333; /* Cambia el color del texto para que sea legible */
+}
+
+.containerRight {
+  background-color: #ebe8e5;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hello {
+  display: flex; /* Establece un contenedor flexible */
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  color: #bdac9b;
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: center;
+}
+
+.DashboardUser {
+  max-height: 440px;
+  overflow-y: auto;
+  margin: 0 2vw;
+}
+
+.stateUp {
+  display: flex; /* Cambiamos a inline-block para que el fondo se ajuste al contenido */
+  justify-content: center;
+  justify-content: flex-end; /* Alinea el contenido hacia la derecha */
+  background-color: white;
+  padding: 0; /* Eliminamos el padding en el contenedor */
+}
+
+.stateUp h2 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #ebe8e5;
+  line-height: 49px;
+  font-size: 70px;
+  margin: 0; /* Eliminamos el margin para quitar el espacio alrededor del texto */
+}
+
+.notAccess {
+  display: flex;
+  justify-content: center;
+  margin: 17vw;
+  align-items: center;
+}
+
+.notAccess h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 35px;
+  line-height: 39px;
+  color: #bdac9b;
+}
+
+.notAccess button {
+  font-family: 'Nunito Sans', sans-serif;
+  border: 1px solid #bdac9b;
+  background-color: #bdac9b;
+  color: white;
+  padding: 8px 20px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.notAccess button:hover {
+  background-color: transparent;
+  color: #bdac9b;
+  border: 1px solid #bdac9b;
+}

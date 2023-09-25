@@ -1,0 +1,95 @@
+/* Email.module.css */
+
+.emailContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+  }
+  
+  .emailItem {
+    flex: 1;
+    padding: 2px;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: #333;
+    overflow: hidden;
+  }
+  
+  .emailItemVerifyYes {
+    flex: 1;
+    padding: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 12px;
+    color: rgb(97, 201, 97);
+  }
+  
+  .emailItemVerifyNot {
+    flex: 1;
+    padding: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 12px;
+    color: rgb(210, 45, 45);
+  }
+  
+.img {
+    width: 15px;
+  }
+.edit {
+    background-color: rgb(79, 144, 241);
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    
+  }
+.editDisabled{
+  background-color: rgb(150, 150, 150);
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.create {
+  background-color: rgb(56, 183, 64);
+  color: white;
+  border: none;
+  border-radius: 20%;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 8.2vw;
+  margin-bottom: 5px;
+}
+.delete {
+    background-color: rgb(210, 45, 45);
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+.deleteDisabled {
+    background-color: rgb(150, 150, 150);
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  .star_label svg {
+    color: rgb(189, 162, 107);
+    font-size: 15px;
+  }
+  .none{
+    text-decoration: none;
+    color: var(--colorNegro);
+  }

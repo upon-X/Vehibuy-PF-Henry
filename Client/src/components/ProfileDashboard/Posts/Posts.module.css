@@ -1,0 +1,282 @@
+.noposts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-family: var(--fontInter);
+}
+
+.posts {
+    margin: 3rem 9vw;
+    font-family: var(--fontInter);
+}
+
+.post_title {
+    font-size: 2rem;
+    font-family: var(--fontNunito);
+    text-align: center;
+    color: #a39583;
+}
+
+.publish {
+    color: var(--colorNegro);
+}
+
+.notPosts {
+    margin: 8vw 0 12vw 0;
+    display: flex;
+}
+
+.notPosts h2 {
+    font-family: var(--fontNunito);
+    color: #a39583;
+    font-size: 30px;
+    margin: 0 0 0 14px;
+}
+
+.notPosts p {
+    font-family: var(--fontInter);
+    margin: 5px 0 0 14px;
+    color: #7e7c7a;
+}
+
+.notPosts button {
+    background-color: transparent;
+    font-family: var(--fontNunito);
+    font-size: 15px;
+    color: #a39583;
+    width: 8rem;
+    padding: 10px;
+    margin-left: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 1px solid #a39583;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.notPosts button:hover {
+    background-color: #bbb3ab;
+    color: white;
+    border: 1px solid #bbb3ab;
+}
+.nocars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-family: var(--fontInter);
+  }
+  
+  .cart {
+    margin: 3rem 9vw;
+    font-family: var(--fontInter);
+  }
+  
+  .cart_title {
+    font-size: 2rem;
+    font-family: var(--fontNunito);
+    text-align: center;
+    color: #a39583;
+  }
+  
+  .keeplooking {
+    color: var(--colorNegro);
+  }
+  
+  .notCars {
+    margin: 8vw 0 12vw 0;
+    display: flex;
+  }
+  
+  .notCars h2 {
+    font-family: var(--fontNunito);
+    color: #a39583;
+    font-size: 30px;
+    margin: 0 0 0 14px;
+  }
+  
+  .notCars p {
+    font-family: var(--fontInter);
+    margin: 5px 0 0 14px;
+    color: #7e7c7a;
+  }
+  
+  .notCars button {
+    background-color: transparent;
+    font-family: var(--fontNunito);
+    font-size: 15px;
+    color: #a39583;
+    width: 8rem;
+    padding: 10px;
+    margin-left: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 1px solid #a39583;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+  }
+  
+  .notCars button:hover {
+    background-color: #bbb3ab;
+    color: white;
+    border: 1px solid #bbb3ab;
+  }
+  
+  .topics,
+  .car_i {
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: 42px 1fr 3fr 1fr;
+    border-bottom: 1px solid;
+    border-color: #a39583;
+    padding: 1.4rem;
+  }
+  
+  .topics {
+    padding-bottom: 0;
+    border-bottom: 1px solid;
+    border-color: #a39583;
+  }
+  
+  .topic_product {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    grid-column: 2;
+    text-align: left;
+  }
+  
+  .topic_price {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    grid-column: 4;
+    text-align: right;
+  }
+  
+  .topic_product,
+  .topic_price {
+    width: 200px;
+  }
+  
+  .car_price {
+    font-family: var(--fontInter);
+    font-weight: lighter;
+    font-size: 18px;
+    width: 200px;
+  }
+  
+  .car_img {
+    width: 200px;
+    margin-left: 20px;
+    aspect-ratio: 16/10;
+  }
+  
+  .link_imgcar {
+    grid-column: 2;
+  }
+  
+  .delete {
+    grid-column: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .btnX {
+    stroke: red;
+    border: 1px solid red;
+    cursor: pointer;
+  }
+  
+  .name_and_brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 10px;
+  }
+  
+  .name_and_brand h3 {
+    font-family: var(--fontNunito);
+    font-size: 21px;
+    color: #a39583;
+    margin: 0;
+  }
+  
+  .name_and_brand p {
+    font-family: var(--fontNunito);
+    font-size: 14px;
+    color: #a39583;
+    padding: 7px;
+    background-color: #ebe8e5;
+    margin-top: 10px;
+    display: inline-block; /* Esto hace que el ancho se ajuste al contenido */
+  }
+  
+  .price {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    grid-column: 4;
+  }
+  
+  .detail {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .subtotal {
+    font-family: var(--fontInter);
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    text-align: right;
+  }
+  
+  .subPrice {
+    font-family: var(--fontNunito);
+    color: #a39583;
+    font-size: 17px;
+  }
+  
+  .btn_buy {
+    font-family: var(--fontInter);
+    font-weight: lighter;
+    color: #bbb3ab;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0.7rem 3rem;
+    background-color: transparent;
+    border: 1px solid #bbb3ab;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    cursor: pointer;
+  }
+  
+  .btn_buy:hover {
+    border: 1px solid #bbb3ab;
+    background-color: #bbb3ab;
+    color: white;
+  }
+  .edit{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(79, 144, 241);
+    border: none;
+    border-radius: 20%;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  .del{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(210, 45, 45);
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+  }
+  .img {
+    width: 15px;
+  }

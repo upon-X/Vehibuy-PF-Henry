@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 9vw 15px 9vw;
+}
+
+.filters {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filters p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #bdac9b;
+    margin-right: 10px;
+}
+
+.filters select {
+    border: none;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+}
+.dropdown {
+    display: none; /* Inicialmente oculto */
+    position: absolute; /* Posición absoluta para que aparezca debajo del select */
+    margin-top: 10px; /* Espaciado superior */
+    background-color: white; /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde gris */
+    padding: 10px; /* Espaciado interior */
+    z-index: 1; /* Asegúrate de que esté por encima de otros elementos */
+    align-items: center;
+}
+  
+  /* Mostrar el menú desplegable cuando es necesario */
+  .filters:hover .dropdown {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 9vw 15px 9vw;
+}
+.filters{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+.iconF{
+    height: auto;
+    width: 10px;
+} */
+
+/*
+
+.filters {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filters p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #bdac9b;
+    margin-right: 10px;
+}
+
+.filters select {
+    border: none;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+}
+.iconF{
+    height: 10px;
+} */

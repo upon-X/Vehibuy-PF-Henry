@@ -1,0 +1,176 @@
+ .buttonBackContainer {
+     margin-top: 1.2em;
+     justify-self: left;
+     text-decoration: none;
+     height: auto;
+     font-size: 1.2em;
+     margin-left: 1em
+ }
+
+ .buttonBackLink {
+     display: flex;
+     align-items: center;
+     border: none;
+     height: 1.5em;
+     background-color: transparent;
+     font-family: "Inter", sans-serif;
+     font-size: 17px;
+     margin: 0 13px;
+     cursor: pointer;
+     border-bottom: 2px solid transparent;
+     transition: border-bottom-color 0.3s ease;
+ }
+
+ .buttonBackLink:hover {
+     border-bottom-color: black;
+ }
+
+ .buttonBackH5 {
+     color: black;
+ }
+
+ .login {
+     display: grid;
+     place-items: center;
+     background-color: var(--colorCrema);
+     font-family: var(--fontNunito);
+ }
+
+ .title_login {
+     font-size: 2.6rem;
+     margin: 0;
+ }
+
+ .errors {
+     margin: -0.6rem 0.3rem;
+     color: var(--colorRojo);
+     font-size: 0.9rem;
+ }
+
+ .login_form {
+     width: 400px;
+     margin: 2rem 0;
+     background-color: var(--colorBlanco);
+     padding: 2rem;
+ }
+
+ .form_in {
+     flex-direction: column;
+     display: flex;
+     align-items: flex-start;
+     gap: 1rem;
+ }
+
+ .label {
+     font-family: var(--fontNunito);
+     color: var(--colorGris);
+ }
+
+ .input {
+     background-color: var(--colorGrisClaro);
+     border: 1px solid transparent;
+     border-radius: 3px;
+     outline: var(--colorGris);
+     padding: 0.5rem;
+     width: 95%;
+ }
+
+ .forgot_password {
+     display: flex;
+     flex-direction: column;
+     align-self: flex-end;
+     color: var(--colorAzulCielo);
+     cursor: pointer;
+     font-size: 15px;
+     font-weight: bold;
+     text-decoration: none;
+ }
+
+ .toregister:hover,
+ .forgot_password:hover {
+     text-decoration: underline;
+ }
+
+ .toregister {
+     font-size: 1rem;
+     border: none;
+     cursor: pointer;
+     font-weight: bold;
+     text-decoration: none;
+     color: var(--colorAzulCielo);
+     background-color: var(--colorBlanco);
+ }
+
+ .btn_login {
+     width: 98.8%;
+     cursor: pointer;
+     padding: 0.5rem;
+     border: none;
+     border-radius: 3px;
+     background-color: #3e6ae1;
+     margin-bottom: 2rem;
+     color: var(--colorBlanco);
+     font-family: var(--fontNunito);
+     font-weight: bold;
+     font-size: 1.2rem;
+ }
+
+ .btn_login:hover {
+     background-color: #0030b3;
+ }
+
+ .auth {
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+ }
+
+ .or {
+     text-align: center;
+ }
+
+ .btn_google {
+     padding: 3px;
+     display: flex;
+     align-items: center;
+     background-color: var(--colorBlanco);
+     cursor: pointer;
+     border: 1px solid var(--colorGrisClaro);
+     transition: ease-in-out 0.1s;
+     margin-bottom: 1rem;
+     font-size: 1rem;
+     font-family: var(--fontNunito);
+     justify-content: center;
+     gap: 1.5rem;
+ }
+
+ .btn_google:hover {
+     border-color: var(--colorGris);
+ }
+
+ .svg_google {
+     filter: brightness(0.9);
+     mix-blend-mode: multiply;
+ }
+
+ .btn_hideandshow {
+     margin-top: -3rem;
+     margin-left: 22.7rem;
+ }
+
+ .show_hide_password {
+     cursor: pointer;
+     border: none;
+     border-radius: 5px;
+     background-color: transparent;
+ }
+
+ @media (max-width: 479px) {
+     .login_form {
+         width: 80vw;
+     }
+
+     .btn_hideandshow {
+         margin: -3rem 0 0 71vw;
+     }
+ }

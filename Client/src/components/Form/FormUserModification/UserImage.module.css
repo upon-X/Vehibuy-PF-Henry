@@ -1,0 +1,25 @@
+.buttonImage {
+  cursor: pointer;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 3px;
+  margin-top: 10px;
+  font-family: var(--fontNunito);
+  font-weight: bold;
+  grid-column: 1/-1;
+}
+
+.buttonImage:hover {
+  background-color: var(--colorGrisClaro);
+}
+
+.buttonImage:hover {
+  border-bottom-color: black;
+}
+
+.hiddenInput {
+  opacity: 0;
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* Ocultar el input de manera accesible */
+}

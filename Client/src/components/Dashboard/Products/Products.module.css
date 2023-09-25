@@ -1,0 +1,71 @@
+.emailContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #bdac9b   ;
+}
+
+.emailItem {
+    flex: 1;
+    padding: 2px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    color: white;
+    overflow: hidden;
+}
+.img {
+    width: 15px;
+  }
+.edit {
+    background-color: rgb(79, 144, 241);
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    
+  }
+.editDisabled{
+  background-color: rgb(150, 150, 150);
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+.create {
+  background-color: rgb(56, 183, 64);
+  color: white;
+  border: none;
+  border-radius: 20%;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 8.2vw;
+  margin-bottom: 5px;
+}
+.delete {
+    background-color: rgb(210, 45, 45);
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+.deleteDisabled {
+    background-color: rgb(150, 150, 150);
+    border: none;
+    border-radius: 20%;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+.filtersEdit{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}

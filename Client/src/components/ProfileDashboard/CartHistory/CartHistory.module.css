@@ -1,0 +1,96 @@
+.title {
+  font-size: 2rem;
+  margin-top: 0.8em;
+  color: var(--colorNegro);
+}
+
+.bought {
+  font-family: var(--fontNunito);
+}
+
+.bought_img {
+  width: 200px;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px white solid;
+}
+
+.emptyContainer {
+  height: auto;
+  width: 30%;
+}
+
+.h6Container {
+  height: auto;
+  width: 20%;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.select {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+  border: 2px solid transparent;
+  padding: 10px;
+  background-color: white;
+}
+
+.nopurchases {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  font-family: var(--fontInter);
+}
+
+.purchase_title {
+  font-size: 2rem;
+  font-family: var(--fontNunito);
+  text-align: center;
+  color: #a39583;
+}
+
+.keeplooking {
+  color: var(--colorNegro);
+}
+
+.notPurchases {
+  margin: 8vw 0 12vw 0;
+  display: flex;
+}
+
+.notPurchases h2 {
+  font-family: var(--fontNunito);
+  color: #a39583;
+  font-size: 30px;
+}
+
+.notPurchases p {
+  font-family: var(--fontInter);
+  color: #7e7c7a;
+}
+
+.notPurchases button {
+  background-color: transparent;
+  font-family: var(--fontNunito);
+  font-size: 15px;
+  color: #a39583;
+  width: 8rem;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #a39583;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.notPurchases button:hover {
+  background-color: #bbb3ab;
+  color: white;
+  border: 1px solid #bbb3ab;
+}

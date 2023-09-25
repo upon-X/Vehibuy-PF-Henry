@@ -1,0 +1,162 @@
+.container {
+  margin: 0 10vw;
+}
+
+.titleCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  color: #c3bab0;
+  padding: 0;
+}
+
+.title h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 50px;
+  line-height: 55px;
+  color: #a39583;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #7e7c7a;
+  line-height: 20px;
+  font-size: 16px;
+  margin: 1vw 12vw 3vw 12vw;
+}
+
+.phrase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebe8e5;
+  margin-bottom: 40px;
+}
+
+.phrase p {
+  justify-content: right;
+  display: flex;
+  font-family: "Inter", sans-serif;
+  color: #a39583;
+  padding-bottom: 25px;
+  padding-right: 30px;
+}
+
+.phrase h3 {
+  padding: 40px 40px 0 40px;
+  font-family: "Inter", sans-serif;
+  font-style: italic;
+  color: #a39583;
+}
+
+.members {
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito Sans", sans-serif;
+  color: #a39583;
+  font-size: 25px;
+  padding: 0;
+}
+
+.contPhotons {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que las cartas se envuelvan en filas cuando no haya suficiente espacio */
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cards {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 0 20px 0;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  height: 400px;
+  width: 250px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.cards:hover {
+  transform: translateY(-5px);
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  /* Esto asegura que todas las imágenes se ajusten correctamente dentro del contenedor sin estirarse ni deformarse */
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  color: #a39583;
+  margin-bottom: 20px;
+}
+
+.country {
+  font-family: "Nunito Sans", sans-serif;
+  margin-right: 10px;
+  font-size: 14px;
+  color: #cfc8bf;
+}
+
+.fullS {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.students {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20PX;
+}
+
+.students p {
+  font-family: "Inter", sans-serif;
+  color: #a39583;
+  margin-right: 10px;
+}
+
+.students img {
+  width: 100px;
+}
+
+.containerCount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countryI {
+  width: 20px
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.redes img {
+  width: 23px;
+  margin-right: 10px;
+  cursor: pointer;
+}

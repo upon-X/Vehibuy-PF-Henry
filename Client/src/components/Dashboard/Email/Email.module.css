@@ -1,0 +1,68 @@
+/* Email.module.css */
+
+.emailContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: #fff;
+}
+
+.emailItem {
+  flex: 1;
+  padding: 2px;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  color: #333;
+  overflow: hidden;
+}
+
+.emailItemVerifyYes {
+  flex: 1;
+  padding: 5px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  color: rgb(97, 201, 97);
+}
+
+.emailItemVerifyNot {
+  flex: 1;
+  padding: 5px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  color: rgb(210, 45, 45);
+}
+
+.img {
+  width: 15px;
+}
+
+.delete {
+  background-color: rgb(210, 45, 45);
+  border: none;
+  border-radius: 20%;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.edit {
+  background-color: rgb(79, 144, 241);
+  border: none;
+  border-radius: 20%;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.customSwal2Actions {
+  text-align: right; /* Alinea los botones a la izquierda */
+}
+
+/* Opcional: Ajusta el margen del botón "Accept" para separarlo del botón "Cancel" */
+.customSwal2Actions .swal2-confirm {
+  margin-right: 10px; /* Ajusta el margen derecho según tu preferencia */
+}
+/* Estilos adicionales según tus preferencias */
+/* Estilos adicionales según tus preferencias */

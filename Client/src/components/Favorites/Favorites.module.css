@@ -1,0 +1,113 @@
+.buttonBackContainer{
+  margin-top: 1.2em;
+  justify-self: left;
+  text-decoration: none;
+  height: auto;
+  font-size: 1.2em;
+  margin-left:1em;
+  
+}
+.buttonBackLink{
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 1.5em;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  margin: 0 13px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+  width: 6em;
+}
+.buttonBackLink:hover{border-bottom-color: black;}
+.buttonBackH5{
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que los elementos se envuelvan en varias líneas */
+  justify-content: center;
+  /* Centra horizontalmente los elementos */
+  margin: 15px;
+  gap: 20px;
+}
+
+.coverImage {
+  width: 100%;
+  height: 300px;
+  background-image: url('../../../public/favorites.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.selects {
+  display: flex;
+  height: 20px;
+  margin: 15px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.23);
+}
+
+.card {
+  flex: 1 1 300px;
+  /* Permite que las tarjetas tengan un ancho fijo y se ajusten al ancho del contenedor */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.23);
+}
+
+.card:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  animation: fade-in 0.5s ease-in-out;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  /* Centrar horizontalmente */
+}
+
+.containerNF {
+  margin: 9vw 0;
+}
+
+.containerNFP {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerNFP p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 23px;
+  color: #a39583;
+  margin: 0;
+}
+
+.containerNFP span {
+  font-family: 'Inter', sans-serif;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.selectedCard {
+  background-color: rgba(0, 0, 0, 0.23);
+}

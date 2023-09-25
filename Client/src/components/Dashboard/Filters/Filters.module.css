@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 9vw 15px 9vw;
+}
+
+.filters {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.filters p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #bdac9b;
+    margin-right: 10px;
+}
+
+.filters select {
+    border: none;
+    background-color: transparent;
+    font-family: "Inter", sans-serif;
+}

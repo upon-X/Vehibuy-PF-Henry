@@ -1,0 +1,69 @@
+.containerDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EBE8E5;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin: 0;
+    border-radius: 6px; /* Añadido: esquinas redondas */
+}
+.container2 {
+    align-items: center;
+    margin-left: 25vw;
+    margin-top: 15vw;
+}
+.containerNF {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.containerNF img {
+    width:  40px;
+    margin-right: 20px;
+}
+.containerNF p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+.containerNF span {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+.loading {
+    align-items: center;
+    margin-left: 30vw;
+    margin-top: 15vw;
+}
+.img {
+    display: flex;
+    width: 100px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.pagination button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: #bbb3ab;
+    margin: 0px 17px;
+}
+button[disabled] {
+    color: #e7e3df;
+    cursor: default;
+}

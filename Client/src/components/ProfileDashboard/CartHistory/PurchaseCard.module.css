@@ -1,0 +1,153 @@
+.mainContainer{
+    
+    display: flex;
+    flex-direction: column;
+    border:none;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid ;
+    background-color:transparent;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.flexContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.descriptionContainer{
+    height: auto;
+    width: 30%; 
+    margin-bottom: 2em;
+    
+}
+.priceContainer{
+    height: auto;
+    width: 20%; 
+    margin-bottom: 2em
+}
+.dateContainer{
+    height: auto;
+    width: 20%; 
+    
+}
+.date{
+    text-align: right;
+    margin-right: 2rem;
+}
+.h2Container{
+    display: flex;
+    justify-content: space-between;
+}
+/*.............................................*/
+
+.nocars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-family: var(--fontInter);
+}
+
+.cart {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: var(--fontInter);
+}
+
+.cart_title {
+    font-size: 2rem;
+    font-family: var(--fontNunito);
+    text-align: center;
+}
+
+.keeplooking {
+    color: var(--colorNegro);
+}
+
+.topics,
+.car_i {
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+    border-bottom: 1px solid;
+    padding: 1.2rem;
+}
+
+.topics {
+    padding-bottom: 0;
+    border-bottom: 1px solid;
+}
+
+.topic_product {
+    grid-column: 1;
+    text-align: left;
+}
+
+.topic_price {
+    grid-column: 3;
+    text-align: right;
+}
+
+.topic_product,
+.car_price,
+.topic_price {
+    width: 200px;
+}
+
+.car_img {
+    width: 250px;
+    aspect-ratio: 16/10;
+}
+
+.link_imgcar {
+    grid-column: 1;
+}
+
+
+.name_and_brand {
+    display: flex;
+    grid-column: 2;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: flex-start;
+    align-self: center;
+}
+
+.price {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    grid-column: 3;
+}
+
+.detail {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.subtotal {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    text-align: right;
+}
+
+.btn_buy {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 0.7rem 3rem;
+    background-color: var(--colorBlanco);
+    border: 2px solid var(--colorNegro);
+    transition: ease-in-out 0.1s;
+    cursor: pointer;
+}
+
+.btn_buy:hover {
+    border-color: var(--colorNegroClaro);
+    background-color: var(--colorGrisClaro);
+}
+
+@media (max-width: 600px) {}

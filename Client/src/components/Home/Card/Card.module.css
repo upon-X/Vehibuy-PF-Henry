@@ -1,0 +1,90 @@
+.container {
+    width: 270px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    margin: 15px;
+    justify-content: center;
+    /* Alinear verticalmente al centro */
+    align-items: center;
+    /* Alinear horizontalmente al centro */
+    transition: box-shadow 0.3s;
+    /* Agregar una transición suave para la sombra */
+    border-radius: 6px;
+    /* Añadido: esquinas redondas */
+}
+
+.container:hover {
+    box-shadow: 0px 0px 10px 2px rgba(84, 80, 80, 0.3);
+    /* Agregar sombra al pasar el cursor por encima */
+}
+
+.containerImg {
+    width: 85%;
+    height: 170px;
+    margin: 19px;
+    object-fit: cover;
+    overflow: hidden;
+    object-position: center;
+    vertical-align: middle;
+}
+
+.name {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-left: 19px;
+    margin-top: 1px;
+    color: black;
+}
+
+.price {
+    margin-left: 19px;
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    color: var(--colorNegro);
+}
+
+.state {
+    margin-left: 19px;
+    margin-top: 7px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #95887c;
+    font-size: 14px;
+}
+
+.locationAndFav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+
+.location {
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 19px;
+    color: #bbb3ab;
+}
+
+.heart {
+    margin-right: 21px;
+    cursor: pointer;
+}
+
+.heart button {
+    font-size: 28px;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    color: yellow;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.container.selectedCard {
+    background-color: rgb(188, 154, 87);
+    /* Cambia el color de fondo a rojo */
+}

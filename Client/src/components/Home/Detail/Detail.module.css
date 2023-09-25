@@ -1,0 +1,243 @@
+.detail {
+  font-family: var(--fontNunito);
+  display: grid;
+}
+
+.detail_card {
+  margin: 2rem 11vw;
+  display: grid;
+  grid-template-columns: 92px 30.45rem 1fr;
+  gap: 0.7rem;
+  padding: 2rem;
+  background-color: var(--colorBlanco);
+}
+
+.carrousel_img1,
+.carrousel_img {
+  max-width: 30.45rem;
+}
+
+.selected_imgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom_carrousel {
+  max-width: 30rem;
+  aspect-ratio: 16/10;
+}
+
+.carrousel_img1 {
+  cursor: grab;
+}
+
+.carrousel_img1:active {
+  cursor: grabbing;
+}
+
+.carrousel_img2 {
+  max-width: 90px;
+  aspect-ratio: 16/10;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.carrousel_img2:hover {
+  border-color: var(--colorGris);
+}
+
+.selected_image {
+  max-width: 90px;
+  aspect-ratio: 16/10;
+  border: 2px solid #7e6852;
+  cursor: pointer;
+}
+
+.detail_info {
+  grid-column: 3;
+}
+
+.h1_detail {
+  font-size: 1.2rem;
+  font-family: var(--fontInter);
+}
+
+.detail_name {
+  margin-left: 10px;
+  margin-top: -0.6rem;
+  font-size: 3rem;
+  font-family: "Nunito Sans", sans-serif;
+  color: #a39583;
+  line-height: 3.3vw;
+}
+
+.detail_brand {
+  background-color: #ebe8e5;
+  padding: 5px 10px;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  color: #a39583;
+}
+
+.brandAndState {
+  display: flex;
+  align-items: center;
+  margin-top: 0.4rem;
+  margin-left: 10px;
+  margin-bottom: 2.4vw;
+}
+
+.detail_state {
+  margin-left: 20px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  color: var(--colorGris);
+}
+
+.pf {
+  font-family: "Inter", sans-serif;
+  color: #7e7c7a;
+  font-size: 13px;
+  font-weight: lighter;
+  margin-left: 10px;
+  margin-top: 36px;
+  margin-bottom: 2.2vw;
+}
+
+.detail_location {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: black;
+  font-weight: lighter;
+}
+
+.atributes {
+  font-family: "Nunito Sans", sans-serif;
+  color: #a39583;
+}
+
+.buttonsAddAndFav {
+  display: flex;
+}
+
+.btn_addcart {
+  width: 68%;
+  font-family: "Inter", sans-serif;
+  padding: 10px 0;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid #bbb3ab;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.btn_addcart2 {
+  width: 100%;
+  padding-bottom: 9px;
+  font-size: 20px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid #bbb3ab;
+  cursor: pointer;
+}
+
+.btn_addcart:hover {
+  background-color: #bbb3ab;
+  color: white;
+  border: 1px solid #bbb3ab;
+}
+
+.detail_model {
+  font-size: 2.5rem;
+}
+
+.detail_price {
+  margin-left: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  font-size: 1.4rem;
+  color: black;
+}
+
+.descriptionAndReview {
+  display: flex;
+  margin-top: 20px;
+}
+
+.detail_description {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 20px;
+  color: #a39583;
+}
+
+.description {
+  margin-right: 2vw;
+  font-family: "Inter", sans-serif;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.security {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #a39583;
+}
+
+.security h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: lighter;
+  font-size: 23px;
+  color: #a39583;
+  margin: 25px 0 15px 25px;
+}
+
+.ul {
+  width: 28vw;
+  padding: 0 40px 25px 15px;
+}
+
+.ul li {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.description_car {
+  width: 37rem;
+  margin-right: 20px;
+}
+
+.btn_removecart,
+.btn_gocart {
+  width: 150px;
+  border: 1px solid var(--colorNegro);
+  color: var(--colorNegro);
+  background-color: var(--colorBlanco);
+  text-transform: uppercase;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: ease-in-out 0.1s;
+}
+
+.div_removegocart {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn_removecart {
+  width: 250px;
+}
+
+.linktolocation {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--colorNegro);
+}
+
+.linktolocation:hover {
+  text-decoration: underline;
+}

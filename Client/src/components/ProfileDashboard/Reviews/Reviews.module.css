@@ -1,0 +1,118 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid ;
+    background-color: white;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.cart {
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    font-family: var(--fontInter);
+}
+.car_i {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1.3rem;
+    display: grid;
+    border-bottom: 1px solid;
+    padding: 1.2rem;
+}
+.car_img {
+    width: 200px;
+    aspect-ratio: 16/10;
+}
+.name_and_brand {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    align-items: flex-start;
+    align-self: center;
+}
+.reviewInfo {
+    width: auto;
+    grid-column: 1/-1;
+}
+
+.star_container {
+    display: inline;
+    align-items: center;
+    margin: 5px;
+}
+  
+.star_label {
+    cursor: pointer;
+}
+  
+.star_label svg {
+    color: rgb(189, 162, 107);
+}
+
+
+
+.noreviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    font-family: var(--fontInter);
+}
+
+.posts {
+    margin: 3rem 9vw;
+    font-family: var(--fontInter);
+}
+
+.review_title {
+    font-size: 2rem;
+    font-family: var(--fontNunito);
+    text-align: center;
+    color: #a39583;
+}
+
+.publish {
+    color: var(--colorNegro);
+}
+
+.notReviews {
+    margin: 8vw 0 12vw 0;
+    display: flex;
+}
+
+.notReviews h2 {
+    font-family: var(--fontNunito);
+    color: #a39583;
+    font-size: 30px;
+    margin: 0 0 0 14px;
+}
+
+.notReviews p {
+    font-family: var(--fontInter);
+    margin: 5px 0 0 14px;
+    color: #7e7c7a;
+}
+
+.notReviews button {
+    background-color: transparent;
+    font-family: var(--fontNunito);
+    font-size: 15px;
+    color: #a39583;
+    width: 8rem;
+    padding: 10px;
+    margin-left: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: 1px solid #a39583;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.notReviews button:hover {
+    background-color: #bbb3ab;
+    color: white;
+    border: 1px solid #bbb3ab;
+}
